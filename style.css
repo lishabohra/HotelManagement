@@ -1,0 +1,425 @@
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	background: url(images/background1.jpg)no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-attachment:fixed;
+
+     }  
+
+.bg-agile
+{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    padding: 3em 3em 3.5em;
+    background: rgba(0, 0, 0, 0.36);
+   
+}
+h1
+{
+    font-size: 54px;
+    font-weight: 100!important;
+    text-transform: capitalize;
+    color: #fff;
+    word-spacing: 11px;
+    letter-spacing: 5px;
+    margin: 2.5em 0 1.5em;
+    text-align: center;
+}
+h1 span
+{
+    color: #ea2e3e!important;
+    border: 7px solid rgba(1, 60, 166, 0.86);
+    padding: 0 7px 0 12px;
+}
+.book-appointment h2
+{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+/*-- reservation --*/
+.book-form input[type="text"], .book-form input[type="email"], select#country, select#country1, input#datepicker
+{
+    width: 86.8%!important;
+    color: #fff;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    padding: 10px 10px 10px 50px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.47);
+	font-family: 'Flamenco', cursive;
+}
+.phone_email, .span1_of_1
+{
+    margin-bottom: 1.5em;
+    width: 49%;
+    float: left;
+}
+.phone_email1
+{
+    float: right;
+}
+select#country,select#country1
+{
+    width: 100%!important;
+}
+select#country option, select#country1 option
+{
+	background:#000;
+}
+.book-form .form-text,.book_date,.section_room
+{
+    position: relative;
+} 
+.book-form i
+{
+    position: absolute;
+    color: #f5eeee;
+    font-size: 14px;
+    top: 7px;
+    left: 0px;
+    width: 34px;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.47);
+}
+.book-form input[type="submit"]
+{
+    text-transform: capitalize;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #ffffff;
+    padding: 0.7em 0em;
+    border: none;
+    border: 2px solid #ea2e3e;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+       width: 27%;
+    float: right;
+    outline: none;
+    letter-spacing: 8px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+}
+.book-form input[type="submit"]:hover
+{
+    background: #ea2e3e;
+    border-color: #ea2e3e;
+    color: #fff;
+}
+.book-form input[type="reset"]
+{
+    text-transform: capitalize;
+    background: rgba(16, 67, 163, 0.13);
+    color: #ffffff;
+    padding: 0.7em 0em;
+    border: none;
+    border: 2px solid #ea2e3e;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+       width: 27%;
+    float: left;
+    outline: none;
+    letter-spacing: 8px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+}
+.book-form input[type="reset"]:hover
+{
+    background: #ea2e3e;
+    border-color: #ea2e3e;
+    color: #fff;
+}
+.book-form ::-webkit-input-placeholder
+{
+	color:#fff !important;
+}
+.book-form :-moz-placeholder
+{ /* Firefox 18- */
+	color:#fff !important; 
+}
+.book-form ::-moz-placeholder
+{  /* Firefox 19+ */
+	color:#fff !important;
+}
+.book-form :-ms-input-placeholder
+{  
+	color:#fff !important;
+}
+.agile-reservation-grid
+{
+    background: #f4f4f4;
+    padding: 2em;
+}
+.book-form
+{
+       margin: 0em 0;
+	   width:100%
+}
+
+/*-- //reservation --*/
+
+.row{
+    max-width: 1180px;
+    margin: 0 auto 1px;
+}
+.logo{
+    height: 80px;
+    width: auto;
+   margin-top: 25px;
+    margin-left: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 60%;
+}
+.main-nav li a:hover
+{
+    border-bottom: 3px solid black;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: beige;
+  color: white;
+}
+
+
+body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color:  #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:focus, a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: white;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#login-form-wrap {
+  width: 409px;
+  height: auto;
+  margin: 0% auto;
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.95);
+  
+}
+
+#login-form {
+  padding: 0 50px;
+   
+  
+ }
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+   
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #3ca9e2;
+}
+input[type="text"]:focus:invalid,
+input[type="password"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+input[type="text"]:valid ~ .validation,
+input[type="password"]:valid ~ .validation {
+  display: block;
+  border-color: #0C0;
+}
+input[type="text"]:valid ~ .validation span,
+input[type="password"]:valid ~ .validation span {
+  background: #0C0;
+  position: absolute;
+  border-radius: 6px;
+}
+input[type="text"]:valid ~ .validation span:first-child,
+input[type="password"]:valid ~ .validation span:first-child {
+  top: 30px;
+  left: 14px;
+  width: 20px;
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+input[type="text"]:valid ~ .validation span:last-child,
+input[type="password"]:valid ~ .validation span:last-child {
+  top: 35px;
+  left: 8px;
+  width: 11px;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+  background-color: #eeedf1;
+  color: #8a8b8e;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.background{
+repeat: no-repeat;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.wrapper {
+		width: 80%;
+		height: auto;
+		margin: 5%;
+	}
+        
+@media only screen and (max-width: 767px) {
+	.wrapper {
+		width: 80%;
+		height: auto;
+		margin: 10%;
+	}

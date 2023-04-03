@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: white;
+}
+
+.wrapper {
+	width: 409px;
+	height: auto;
+	margin: 0% auto;
+}
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.95);
+  
+}
+.img-area {
+	display: grid;
+	grid-template-rows: repeat(3, 19vh);
+	grid-template-columns: repeat(2, 19vw);
+	transition: all .2s cubic-bezier(0.5, 0.8, 0.5, 0.2);
+	border-radius: 10px;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	left: 0;
+	top: 0;
+	transition: all .15s cubic-bezier(0.5, 0.2, 0.2, 0.5);
+	position: relative;
+	box-shadow: 0 0 0 #000;
+	opacity: .7;
+}
+.aiy:hover {
+	width: 120%;
+	height: 300%;
+	opacity: 1;
+	z-index: 1;
+	box-shadow: 1em 1em 1em #0004;
+	transition: all .3s cubic-bezier(0.5, 0.2, 0.2, 0.5);
+	border-radius: 5px;
+	top: -100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.wrapper {
+		width: 80%;
+		height: auto;
+		margin: 5%;
+	}
+	.img-area {
+		grid-template-rows: repeat(3, 20vh);
+		grid-template-columns: repeat(2, 32vh);
+	}
+	img:hover {
+		width: 100%;
+		height: 200%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.wrapper {
+		width: 80%;
+		height: auto;
+		margin: 10%;
+	}
+	.img-area {
+		grid-template-rows: repeat(5, 30vh);
+		grid-template-columns: repeat(1, 50vh);
+	}
+	img:hover {
+		width: 100%;
+		height: 200%;
+	}
+        }
+
+
+.logo{
+    height: 80px;
+    width: auto;
+   margin-top: 25px;
+    margin-left: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+  
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 80%;
+}
+.main-nav li a:hover
+{
+    border-bottom: 3px solid black;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: beige;
+  color: white;
+}

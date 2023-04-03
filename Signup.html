@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Sign Up </title>
+       <link rel="icon" href="images/Logo.png" >
+    <link rel="stylesheet" href="signup.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<header>
+		<img src="images/Logo.png" class="logo">
+			<ul class="main-nav" id="check-class">
+		<nav class="topnav">
+                    
+                            
+			<div class="row">
+			<li><a href="Main.html">Home</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+			<li><a href="login.html">Log In</a></li>
+			<li><a href="Signup.html">Sign Up</a></li>
+                        <li><a href="Form.html">Book Your Room</a></li>
+                        <li><a href="attraction.html">Attractions </a></li>
+			<li><a href="activities.html">Activities</a></li>
+			<li><a href="gallery.html">Image Gallery </a></li>
+			<li><a href="contact.html">Contact Us &nbsp;&nbsp;</a></li>
+			</ul>
+					
+			</div>
+		</nav>
+	</header>
+
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" pattern="[7-9]{1}[0-9]{9}" title="Please fill valid 10 digit phone number!" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" title="Password should contain Minimum eight characters, at least one letter, one number and one special character!"  required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" title="Password should contain Minimum eight characters, at least one letter, one number and one special character!" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender"> Male </span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender"> Female </span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender"> Others </span>
+            </label>
+          </div>
+          <div>
+              <input type="checkbox" placeholder="I accept the terms & conditions." required>
+              <span class="det">I accept the terms and conditions.</span>
+          </div>
+          </div>
+      
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

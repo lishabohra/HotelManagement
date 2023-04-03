@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+     <link rel="icon" href="images/Logo.png" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<!-- Stylesheet -->
+<link rel="stylesheet" href="./style.css">
+<!-- //Stylesheet -->
+<!-- fonts --> 
+<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">  
+
+<!-- // fonts-->
+</head>
+<body>
+	<header>
+		<img src="images/Logo.png" class="logo">
+			<ul class="main-nav" id="check-class">
+		<nav class="topnav">
+                    
+                            
+			<div class="row">
+			<li><a href="Main.html">Home</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+			<li><a href="login.html">Log In</a></li>
+			<li><a href="Signup.html">Sign Up</a></li>
+                        <li><a href="Form.html">Book Your Room</a></li>
+                        <li><a href="attraction.html">Attractions </a></li>
+			<li><a href="activities.html">Activities</a></li>
+			<li><a href="gallery.html">Image Gallery </a></li>
+			<li><a href="contact.html">Contact Us&nbsp;&nbsp;</a></li>
+			</ul>
+					
+			</div>
+		</nav>
+	</header>
+
+
+
+
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Login</h2>
+  <form id="login-form">
+    <p>
+    <input type="text" id="username" name="username" placeholder="Username" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="password" id="pwd" name="password" placeholder="Password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" title="Password should contain Minimum eight characters, at least one letter, one number and one special character!" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <input type="text" name="Phone Number" placeholder="Phone number" pattern="[7-9]{1}[0-9]{9}" title="Please fill valid 10 digit phone number!" required>
+    <p>
+    <input type="submit" id="login" value="Login">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>Not a member? <a href="signup.html">Create Account</a><p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+</body>
+</html>
